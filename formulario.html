@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="formularios.css">
+    <link rel="icon" href="formulario.png">
     <title>Aula de Formulario</title>
     <style>
     </style>
 </head>
 <body>
     
-    <h1>MEU PRIMEIRO FORMULARIO</h1>
+    <h1>Formulario de Pesquisa</h1>
         <farm>
             <label for="nomesobrenome"> Nome e Sobrenome </label>
             <input type="text" id="nomesobrenome" class="input-padrão">
@@ -26,7 +27,7 @@
             <textarea cols="70" rows="10" id="mensagem" class="input-padrão"></textarea>
         </farm>
 
-        <div>
+        <fieldset>
             <p>Como prefere nosso contato?</p>
             <label for="radio-email">
                 <input type="radio" name="contato" value="email" id="radio-email">
@@ -37,19 +38,20 @@
                 <label for="radio-telefone">
                     <input type="radio" name="contato" value="telefone" id="radio-telefone">
                     
-                    <img src="telefone.png" id="telefone">
+                    <img src="tel.png" id="telefone">
     
                 
                 <label for="radio-whatsapp">
                     <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
                     
                     <img src="whatsapp.png" id="whatsapp">
-           
-        </div>
-</head>
+        
+                </fieldset>
+
+    </head>
         <style>
         *{
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-family: Arial, Helvetica, sans-serif;
             color: rgb(19, 17, 146);
 
 
@@ -92,9 +94,12 @@
             <td>8h-20hrs</td>
         </tr>
 
-
-
-
+        </table>
+    </main>
+    <footer>
+        <img src="" alt="">
+        <p class="copyright">&copy; Copyright Barbearia Correa - 2022 </p>
+    </footer>
 
 
 
